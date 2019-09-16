@@ -1,7 +1,7 @@
 contract StandardToken is ERC20 {
 
-  string public constant name = "Token Name";
-  string public constant symbol = "TKN";
+  string public constant name = "Bitcoin";
+  string public constant symbol = "BTC";
   uint8 public constant decimals = 18; 
 
   mapping (address => mapping (address => uint)) allowed;
